@@ -2,7 +2,7 @@ classdef ChannelPoolingLayer < nnet.layer.Layer
     methods
         % 添加构造函数处理Name参数
         function this = ChannelPoolingLayer(varargin)
-            % 解析输入参数（支持名称-值对）
+            % 解析输入参数
             p = inputParser;
             addParameter(p, 'Name', '', @ischar);
             parse(p, varargin{:});
