@@ -1,5 +1,5 @@
 clear;
-load GWS_data.mat
+load TWS_data.mat
 data=merged_matrix;
 load predict_data.mat
 data_2=pre_data;
